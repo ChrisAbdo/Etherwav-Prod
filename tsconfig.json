@@ -24,6 +24,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "backend/migrations/1_deploy_contracts.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "backend/migrations/1_deploy_contracts.js", "src/app/radio/page.jsx"],
   "exclude": ["node_modules"]
 }

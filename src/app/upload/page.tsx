@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
 import { motion, AnimatePresence } from 'framer-motion';
 
 import Web3 from 'web3';
@@ -134,8 +133,6 @@ const Upload = () => {
       </Select>
     </div>,
   ];
-
-  //   const router = useRouter();
 
   useEffect(() => {
     if (formInput.name && formInput.coverImage && formInput.genre && fileUrl) {

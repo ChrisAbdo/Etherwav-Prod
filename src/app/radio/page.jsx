@@ -1,4 +1,3 @@
-// @ts-nocheck
 'use client';
 
 import React from 'react';
@@ -1027,8 +1026,7 @@ const RadioPage = () => {
         </div>
         <div className="h-1/2 border-t border-black dark:border-[#1f1f1f]">
           <h1 className="text-3xl text-center ml-4 mt-4">
-            More Here Soon :D <br /> For now, enjoy the Heat Leaderboard 🔥
-            &uarr;
+            More Here Soon :D <br /> For now, enjoy the Heat Leaderboard! &uarr;
           </h1>
         </div>
       </div>
